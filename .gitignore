@@ -1,0 +1,35 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+build/
+dist/
+.vercel/
+.turbo/
+.cache/
+coverage/
+
+# Local agent, cloud, and editor state
+.agents/
+.codex/
+.aws/
+.vscode/
+.idea/
+
+# Local environment and debug files
+.env
+.env.*
+!.env.example
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# Unused local portrait experiments and source photo (not served by the site)
+/public/sisiyo-source-photo.png
+/public/sisiyo-profile-illustration.png
+/public/sisiyo-cursor-portrait.png
+/public/media/sisiyo-cursor-portrait-matched.mp4

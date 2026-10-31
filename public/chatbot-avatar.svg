@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="shell" x1="21" y1="16" x2="100" y2="106" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6B28F"/><stop offset=".48" stop-color="#E47750"/><stop offset="1" stop-color="#99472F"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="34" y1="35" x2="88" y2="79" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#302B36"/><stop offset="1" stop-color="#151519"/>
+    </linearGradient>
+    <filter id="glow" x="0" y="0" width="120" height="120" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  <circle cx="60" cy="61" r="43" fill="#E47750" opacity=".22" filter="url(#glow)"/>
+  <path d="M60 13v11" stroke="#ECA07F" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="60" cy="11" r="5" fill="#FFC18E"/>
+  <rect x="20" y="24" width="80" height="72" rx="25" fill="url(#shell)"/>
+  <rect x="28" y="32" width="64" height="54" rx="19" fill="url(#glass)" stroke="#FFD4BD" stroke-opacity=".45" stroke-width="2"/>
+  <ellipse cx="45" cy="58" rx="5" ry="7" fill="#7EE8BD"/>
+  <ellipse cx="75" cy="58" rx="5" ry="7" fill="#7EE8BD"/>
+  <path d="M48 72c3.2 4 7.2 6 12 6s8.8-2 12-6" stroke="#F2A17E" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M37 98h46" stroke="#F3A47E" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="25" cy="58" r="5" fill="#F0A17D"/><circle cx="95" cy="58" r="5" fill="#F0A17D"/>
+</svg>

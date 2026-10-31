@@ -2,6 +2,12 @@
 
 A personal portfolio for **Sisiyo Takele**, a software engineer based in Addis Ababa, Ethiopia. It brings together selected projects, technical skills, experience, education, testimonials, and contact details in a responsive Next.js site.
 
+![Next.js](https://img.shields.io/badge/Next.js-14-000000?logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-18-149eca?logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-Custom%20CSS-1572B6?logo=css3&logoColor=white) ![Deployment](https://img.shields.io/badge/Deployment-Vercel-black?logo=vercel&logoColor=white)
+
+## Portfolio preview
+
+![Sisiyo Takele portfolio homepage](docs/portfolio-homepage.png)
+
 ## Features
 
 - Cursor-controlled animated portrait in the hero section
@@ -14,10 +20,13 @@ A personal portfolio for **Sisiyo Takele**, a software engineer based in Addis A
 
 ## Built with
 
-- [Next.js 14](https://nextjs.org/) and the App Router
-- React 18
-- TypeScript
-- CSS
+- [Next.js 14](https://nextjs.org/) with the App Router for page structure and routing
+- [React 18](https://react.dev/) for interactive UI components
+- [TypeScript](https://www.typescriptlang.org/) for typed application code
+- Custom CSS for responsive layouts, themes, transitions, and animation
+- HTML5 video for the cursor-controlled hero portrait
+- [FormSubmit](https://formsubmit.co/) for contact form delivery
+- [Vercel](https://vercel.com/) for production hosting and continuous deployment
 
 ## Run locally
 
